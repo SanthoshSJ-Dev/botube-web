@@ -2,8 +2,6 @@ from fastapi import FastAPI
 from starlette.middleware.cors import CORSMiddleware
 
 
-# Satjis
-
 app = FastAPI()
 
 orgins = {
@@ -20,4 +18,4 @@ app.add_middleware(
 
 @app.get("/")
 async def root():
-    return ("SAMPLE MESSAGE")
+    return ("05 March 2023")

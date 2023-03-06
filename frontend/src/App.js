@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { Footer, Blog, Header } from './containers';
-import { Wbotube, Navbar } from './components';
+import { Footer, Header } from './containers';
+import { Navbar } from './components';
 
 import './app.css';
 

@@ -5,7 +5,7 @@ from starlette.middleware.cors import CORSMiddleware
 app = FastAPI()
 
 orgins = {
-    'http://localhost:3000'
+    'https://botube-web.netlify.app/'
 }
 
 app.add_middleware(

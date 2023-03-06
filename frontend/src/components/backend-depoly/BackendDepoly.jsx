@@ -8,7 +8,7 @@ function BackendDeploy() {
 
     const chart = async () => {
         try {
-            let res = await axios.get('https://fastapi-production-dfe4.up.railway.app/');
+            let res = await axios.get('https://botube-server.up.railway.app/');
             let result = res.data;
             setResult(result)
         } catch (e) {
